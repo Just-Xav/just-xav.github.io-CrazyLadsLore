@@ -1,0 +1,131 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #0d0d0d;
+    color: #f5f5f5;
+    line-height: 1.6;
+  }
+  
+  header {
+    background: #1a1a1a;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  nav a {
+    color: #ccc;
+    margin-left: 1.5rem;
+    text-decoration: none;
+  }
+  
+  nav a.active,
+  nav a:hover {
+    color: #fff;
+  }
+  
+  main {
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  .search-section {
+    display: flex;
+    margin-bottom: 2rem;
+  }
+  
+  .search-section input {
+    flex: 1;
+    padding: 0.6rem;
+    border: none;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .search-section button {
+    padding: 0.6rem 1rem;
+    background: crimson;
+    border: none;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  .tag-filters {
+    margin-bottom: 2rem;
+  }
+  
+  .tag-filters button {
+    background: #262626;
+    color: white;
+    border: 1px solid #444;
+    padding: 0.5rem 1rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .featured, .latest {
+    margin-bottom: 2rem;
+  }
+  
+  .scp-card {
+    background: #1a1a1a;
+    border: 1px solid #333;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+  }
+  
+  .scp-card h3 {
+    color: #e60000;
+  }
+  
+  .scp-card a {
+    color: #5cb85c;
+    text-decoration: none;
+  }
+  
+  .scp-card a:hover {
+    text-decoration: underline;
+  }
+  
+  .latest ul {
+    list-style: none;
+  }
+  
+  .latest a {
+    color: #66b2ff;
+    text-decoration: none;
+  }
+  
+  .random-button button {
+    background: #222;
+    color: #fff;
+    padding: 0.8rem 1.2rem;
+    border: 1px solid #444;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background: #1a1a1a;
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
